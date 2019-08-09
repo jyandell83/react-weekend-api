@@ -8,7 +8,7 @@ require('./db/db');
 
 
 app.use(session({
-  secret: 'keyboard cat',
+  secret: 'woah dude',
   resave: false,
   saveUninitialized: false
 }));
